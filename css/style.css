@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: 400;
+}
+
+body{
+    background-color: rgb(253, 245, 255);
+}
+
+.header{
+    background-color: rgb(32, 32, 32);
+    height: 6vw;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    height: 6vw;
+}
+
+.logo{
+    height: 4vw;    
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    height: 6vw;
+}
+
+.nav li{
+    margin: 1vw;
+}
+
+.header-btns{
+    height: 6vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+   
+}
+
+.btn-login{
+    margin-right: 1vw;
+}
+
+.content-header{
+    margin-top: 5vw;
+}
+
+main{
+    height: 27vw;
+    background-color: rgb(83, 91, 102);
+    border-top-left-radius: 0.5vw;
+    border-top-right-radius: 0.5vw;
+    border-top: 0.8vw solid rgb(54, 60, 71);
+}
+
+h2{
+    text-align: center;
+    margin: 4vw 0vw 1.2vw 0vw;
+    font-size: 3vw;
+}
+
+.email-p{
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.subscribe-button{
+    background: #fa824f;
+    height: 3vw;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2vw;
+    width: 13vw;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+}
+
+.input-group{
+    width: 42vw;
+    height: 3vw;
+    margin-top: 1vw;
+}
+
+.email-warning{
+    text-align: center;
+    font-size: 0.9vw;
+    font-weight: bold;
+    margin-top: 1vw;
+}
+
+.btn-danger{
+    background-color: #fa824f;
+}
+
+.btn-signup{
+    border: none;
+}
+
+section{
+    background-color: #fff;
+    height: 200px;
+    border: 2px solid #ccc;
+}
+
+.archives-title{
+    color: rgb(65, 65, 65);
+    margin-top: 4vw;
+    margin-left: 3vw;
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+.designers{
+    margin-left: 3vw;  
+    border-radius: 0.5vw;
+    height: 100px;
+}
+
+.introducing{
+    margin-right: 3vw;
+    border-radius: 0.5vw;
+    height: 100px;
+}
